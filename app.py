@@ -4,8 +4,7 @@ from sklearn.linear_model import LinearRegression
 
 import pandas as pd
 
-data = pd.read_excel(r"C:\Users\admin\Downloads\alldatacombined.xlsx", engine='openpyxl')
-
+data = pd.read_excel("alldatacombined.xlsx", engine='openpyxl')
 
 
 companies = data["Company Name"].unique()
